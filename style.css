@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400&family=Noto+Sans+TC:wght@100;700&display=swap');
+
+body {
+  font-family: 'Catamaran', sans-serif;
+  background-color: rgb(250, 250, 250);
+  color: #757575;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+h1, h2, h3 {
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #212121;
+  font-size: 32px;
+  line-height: 1.2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #F44336;
+  transition: .3s;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 8%);
+  padding: 16px;
+  margin: 32px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  width: 130px;
+  border-radius: 50%;
+}
+
+.btn-red {
+  background-color: #D32F2F;
+  padding: 16px;
+  display: inline-block;
+  color: rgb(250,250,250);
+  border-radius: 4px;
+}
+
+.btn-red:hover {
+  background-color: #F44336;
+  color: rgb(10,10,10);
+  transition: .4s;
+  border-radius: 8px;
+}
+ .card h2 {
+   font-size: 20px;
+ }
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+ }
+
+ .list-inline li {
+   display: inline-block;
+   margin: 0 8px;
+   font-size: 32px;
+ }
+
+ .list-inline a {
+   color: #BDBDBD;
+ }
+
+ .list-inline a:hover {
+   color: #F44336;
+   transition: .4s;
+ }
